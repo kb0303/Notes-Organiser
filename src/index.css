@@ -11,3 +11,16 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+i {
+  cursor: pointer;
+}
+.card-body {
+  position: relative;
+  top: 0;
+}
+.card-body i {
+  position: absolute;
+  top: 5%;
+  right: 6%;
+}
